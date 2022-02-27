@@ -1,0 +1,14 @@
+.grid {
+    display: grid;
+    gap: 25px;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding: 0 20px;
+}
+
+.grid > li {
+    background-color: #2ecc71;
+    border-radius: 5px;
+    font-size: 25px;
+    padding: 50px 20px;
+    text-align: center;
+}

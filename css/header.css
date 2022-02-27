@@ -1,0 +1,54 @@
+.header {
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    border-bottom: 1px solid #525252;
+}
+
+.header > h1 {
+    font-size: 30px;
+}
+
+.header .lista-navegacao {
+    display: flex;
+    font-size: 18px;
+    gap: 15px;
+    text-transform: uppercase;
+}
+
+.header .lista-navegacao a:hover {
+    text-decoration: underline;
+}
+
+.header > form > .input-email {
+    background-color: #fafafa;
+    border: 1px solid #d1d1d1;
+    border-radius: 3px;
+    font-size: 14px;
+    padding: 6px 9px;
+}
+
+.header > form > .input-email:hover {
+    border-color: #00aeef;
+}
+
+.header > form > .input-email:focus {
+    border-color: #00aeef;
+    box-shadow: 0 0 4px rgba(11, 195, 241, 0.7);
+}
+
+.header > form > .btn-inscrever {
+    background-color: #2196F3;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+    font-size: 14px;
+    padding: 7px 15px;
+    text-transform: uppercase;
+}
+
+.header > form > .btn-inscrever:hover {
+    background-color: #0b7dda;
+}
