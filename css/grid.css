@@ -2,6 +2,7 @@
     display: grid;
     gap: 25px;
     grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 150px 150px;
     padding: 0 20px;
 }
 
@@ -9,6 +10,10 @@
     background-color: #2ecc71;
     border-radius: 5px;
     font-size: 25px;
-    padding: 50px 20px;
+    padding: 0 25px;
+    /* as proriedades a partir daqui alinham o texto no centro */
+    display: grid;
     text-align: center;
+    justify-content: center;
+    align-items: center;
 }
