@@ -1,0 +1,24 @@
+.posts > li {
+    align-items: center;
+    border-top: 2px solid #dadada;
+    display: flex;
+    gap: 10px;
+    justify-content: space-between;
+    line-height: 1.5;
+    margin: 0 40px;
+    padding: 40px 0;
+}
+
+.posts h4 {
+    color: #050031;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.posts p {
+    font-size: 20px;
+}
+
+.posts img {
+    height: 150px;
+}

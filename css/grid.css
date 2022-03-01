@@ -7,7 +7,7 @@
 }
 
 .grid > li {
-    background-color: #2ecc71;
+    box-shadow: 5px 5px 10px rgb(121, 121, 121);;
     border-radius: 5px;
     font-size: 25px;
     padding: 0 25px;
